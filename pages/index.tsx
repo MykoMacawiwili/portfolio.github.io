@@ -20,15 +20,15 @@ export default function Index() {
       "@context": "https://schema.org",
       "@type": "WebPage",
       "url": "https://www.yesildal.me/",
-      "name": "Umut Yunus Yeşildal | Software Developer",
-      "description": "Portfolio website of Umut Yunus Yeşildal",
+      "name": "Myko Macawiwili",
+      "description": "Portfolio website of Myko Macawiwili",
       "alternateName": "yesildal.me",
       "logo": "https://yesildal.me/favicon.ico",
       "image": "https://www.yesildal.me/homeImage.png",
       "founder": [
         {
             "@type": "Person",
-            "name": "Umut Yunus Yeşildal",
+            "name": "Myko Macawiwili",
             "url": "https://twitter.com/umutyyesildal",
             "jobTitle": "Founder"
         }
@@ -49,14 +49,20 @@ export default function Index() {
       "mainEntity": {
         "@type": "WebPage",
         "url": "https://yesildal.me",
-        "name": "Umut Yeşildal",
+        "name": "Myko Macawiwili",
         "image": "https://www.yesildal.me/homeImage.png",
-        "description": "Developer devoted to creating great web experiences focused on React, NextJS and Flutter based in Istanbul, meet Umut Yunus Yeşildal",
+        "description": " As an ambitious Information Systems college student, I
+        am eager to immerse myself in an environment that
+        cultivates learning and encourages exploration across
+        diverse fields.",
         "mainEntityOfPage": {
             "@type": "Organization",
-            "name": "Umut Yeşildal",
+            "name": "Myko Macawiwili",
             "image": "https://www.yesildal.me/homeImage.png",
-            "description": "Developer devoted to creating great web experiences focused on React, NextJS and Flutter based in Istanbul, meet Umut Yunus Yeşildal",
+            "description": "As an ambitious Information Systems college student, I
+            am eager to immerse myself in an environment that
+            cultivates learning and encourages exploration across
+            diverse fields.",
             "url": "https://yesildal.me",
         }
       },
@@ -69,14 +75,20 @@ export default function Index() {
     </script>
     <meta property="og:url" content="https://yesildal.me" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Umut Yesildal " />
+    <meta property="og:title" content="Myko Macawiwili " />
     <meta property="og:image" content="https://www.yesildal.me/ogImage.png" />
-    <meta property="og:description" content="Developer devoted to creating great web experiences focused on React, NextJS and Flutter based in Istanbul, meet Umut Yunus Yeşildal" />
-    <meta property="og:site_name" content="Umut Yesildal" />
+    <meta property="og:description" content="As an ambitious Information Systems college student, I
+    am eager to immerse myself in an environment that
+    cultivates learning and encourages exploration across
+    diverse fields." />
+    <meta property="og:site_name" content="Myko Macawiwili" />
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:site" content="@umutyyesildal" />
-    <meta name="twitter:title" content="Umut Yunus Yeşildal | Software Developer" />
-    <meta name="twitter:description" content="Developer devoted to creating great web experiences focused on React, NextJS and Flutter based in Istanbul, meet Umut Yunus Yeşildal" />
+    <meta name="twitter:title" content="Myko Macawiwili" />
+    <meta name="twitter:description" content="As an ambitious Information Systems college student, I
+    am eager to immerse myself in an environment that
+    cultivates learning and encourages exploration across
+    diverse fields." />
     <meta name="twitter:image" content="https://www.yesildal.me/ogImage.png" />
     <meta name="twitter:creator" content="@umutyyesildal"/>`,
   });

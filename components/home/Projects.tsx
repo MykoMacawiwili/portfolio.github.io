@@ -1,7 +1,6 @@
 import ProjectsColumn from "components/projects/ProjectsColumn";
 import { useState } from "react";
 
-
 /**
  *
  * Projects section, only for mobile
@@ -11,11 +10,10 @@ import { useState } from "react";
  *
  */
 
-
 export default function Projects() {
   const [texts] = useState({
     title: `<strong>Work,</strong> my previous projects.`,
-    subtitle: "Here are the projects that I have worked on before.",
+    subtitle: "Here are the projects that I have worked on previously.",
   });
 
   return (

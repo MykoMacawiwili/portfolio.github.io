@@ -12,8 +12,8 @@ import { useState } from "react";
 
 export default function Experience() {
   const [texts] = useState({
-    title: `<strong>Experience,</strong> where I worked before`,
-    subtitle: `What I have done before, where I worked before and which position I was before`,
+    title: `<strong>Experience,</strong> where I have worked previously,`,
+    subtitle: `position, date, and my roles.`,
   });
 
   return (

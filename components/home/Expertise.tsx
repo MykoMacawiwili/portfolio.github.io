@@ -14,13 +14,13 @@ import { useState } from "react";
 export default function Expertise() {
   const [texts] = useState({
     title: `<strong>Reflection,</strong> on my college life.`,
-    subtitle: `I have attended De La Salle-College of Saint Benilde and here is my personal experiences throughout the years`,
+    subtitle: `I have attended De La Salle - College of Saint Benilde and here are my personal experiences throughout the years,`,
     item1Title: `Journey`,
     item2Title: `Challenges`,
     item3Title: `Career Goals`,
-    item1: `My life has changed significantly as a result of my stay at De La Salle-College of Saint Benilde; the challenges I overcame there shaped my growth and understanding of the technology industry. It took some time for me to get used to college life, especially after attending online schools where everything was more structured. However, going through this change provided me with the chance to pick up invaluable lessons about adaptability, tenacity, and the importance of taking opportunities.`,
-    item2: `Throughout my time in college, coding and I had a constant love-hate relationship. I learned the virtues of perseverance, patience, and persistence in the face of challenge from every encounter I had, from the thrill of solving challenging puzzles to the frustrations of debugging. Despite the challenges, I remained committed to learning this essential skill.`,
-    item3: `Moreover, my time at Benilde demonstrated to me the significance of Quality Assurance (QA) testers to the technology industry. While developers are often praised, I've found that QA testers are just as vital as developers in software development since they act as the intermediaries of reliability and quality. Understanding this link increased my motivation to work as a QA tester and increased my appreciation for the thorough tasks that they take on.`,
+    item1: `My life has changed significantly as a result of my stay at De La Salle - College of Saint Benilde; the challenges I overcame there shaped my growth and understanding of the technology industry. It took some time for me to get used to college life, especially after attending online where everything was more structured. However, going through this change provided me with the chance to pick up invaluable lessons about adaptability, tenacity, and the importance of taking opportunities.`,
+    item2: `Throughout my time in college, programming and I had a constant love-hate relationship. I learned the virtues of perseverance, patience, and persistence in the face of challenges from every encounter I had, from the thrill of solving challenging puzzles to the frustrations of debugging. Despite the challenges, I remained committed to learning this essential skill.`,
+    item3: `Moreover, my time at Benilde demonstrated to me the significance of Quality Assurance (QA) testers and Project Managers to the technology industry. While developers are often praised, I've found that QA and Project Managers are just as vital as developers in software development since they act as the intermediaries of reliability and quality. Understanding this link increased my motivation to work as a QA or Project Manager and increased my appreciation for the thorough tasks that they take on.`,
   });
 
   return (

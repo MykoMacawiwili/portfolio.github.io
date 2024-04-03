@@ -25,6 +25,13 @@ export default function Home() {
             style={{ opacity: 0 }}
             dangerouslySetInnerHTML={{ __html: texts.subtitle }}
           ></p>
+          <div className="box2">
+            <a href="/MACAWIWILI_RESUME.pdf">
+              <button>
+                <span>Resume</span>
+              </button>
+            </a>
+          </div>
         </div>
         <div className={`preview-container ${"shown-preview"}`}>
           <div className="preview-inner">
@@ -34,6 +41,54 @@ export default function Home() {
       </div>
 
       <style jsx>{`
+        .box2 {
+          padding-top: 30px;
+        }
+
+        .box2 button {
+          font-family: Visby, -apple-system, BlinkMacSystemFont, "Segoe UI",
+            Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 0.8em;
+          line-height: 122%;
+          margin-bottom: 2.513vw;
+          line-height: 115%;
+          border-radius: 4px;
+          border: none;
+          width: 10vw;
+          height: 3vw;
+          text-align: center;
+          transition: all 0.5s;
+          cursor: pointer;
+          margin-right: 15px;
+          background-color: #bae374;
+        }
+
+        .box2 button span {
+          cursor: pointer;
+          display: inline-block;
+          position: relative;
+          transition: 0.5s;
+        }
+
+        .box2 button span:after {
+          content: "►";
+          position: absolute;
+          opacity: 0;
+          top: 0;
+          right: -20px;
+          transition: 0.5s;
+        }
+
+        .box2 button:hover span {
+          padding-right: 25px;
+        }
+
+        .box2 button:hover span:after {
+          opacity: 1;
+          right: 0;
+        }
         .intro {
           position: relative;
           display: flex;

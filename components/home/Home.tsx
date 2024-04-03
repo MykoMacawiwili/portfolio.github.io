@@ -279,6 +279,53 @@ export default function Home() {
             font-size: 1vw;
           }
         }
+        @media screen and (max-width: 1200px) {
+          .intro {
+            padding: 20px 20px;
+          }
+          .intro .content h1 {
+            font-size: 8vw;
+          }
+          .intro .content p {
+            font-size: 3.2vw;
+          }
+        }
+
+        @media screen and (max-width: 992px) {
+          .intro {
+            padding: 20px 20px;
+          }
+          .intro .content h1 {
+            font-size: 7vw;
+          }
+          .intro .content p {
+            font-size: 3vw;
+          }
+        }
+
+        @media screen and (max-width: 768px) {
+          .intro {
+            padding: 15px 15px;
+          }
+          .intro .content h1 {
+            font-size: 6vw;
+          }
+          .intro .content p {
+            font-size: 2.5vw;
+          }
+        }
+
+        @media screen and (max-width: 526px) {
+          .intro {
+            padding: 10px 10px;
+          }
+          .intro .content h1 {
+            font-size: 5vw;
+          }
+          .intro .content p {
+            font-size: 2vw;
+          }
+        }
       `}</style>
     </>
   );

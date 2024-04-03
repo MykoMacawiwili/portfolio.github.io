@@ -5,7 +5,7 @@ import React, { useState } from "react";
  * Projects Column from the Work section. Only for mobile
  *
  * @param {Array} projects - All the projects person has done. It has 6 attributes: backgroundColor for background color of the bubble. Type for type of the projects. Title and subtitle of the project. Techs the technologies projects has used. Links is a json with 2 attributes github and website.
- * 
+ *
  *
  */
 function ProjectsColumn() {
@@ -13,48 +13,47 @@ function ProjectsColumn() {
     projects: [
       {
         backgroundColor: `#dfe6e940`,
-        type: `Mobile App`,
-        title: `<strong>Danceflavors</strong>`,
+        type: `Web App`,
+        title: `<strong>GiveMore</strong>`,
         subtitle:
-          "Worked on Danceflavors app for a year, created frontend for the app, took a part in designing and implementing the architecture of the backend. Mainly used Flutter and Dart programming language, Hive and SQFLite for database, BLoC for state management.",
-        techs: "Flutter SQL NoSQL BloC",
+          "Developed aplatform-as-a-service (PaaS) “GiveMore” that connects donors withcharitable organizations, facilitating seamless contributions and fostering positive change in communities. Incorporated responsive design principles such as HTML, CSS, and JavaScript to create an intuitive and visually appealing interface.",
+        techs: "React, NoSQL, Node",
         links: {
-          github: "",
-          website: "https://www.danceflavors.com/",
+          github: "https://github.com/MykoMacawiwili/GiveMore-Thesis-Capstone",
+          website: "https://isproj2.vercel.app/",
         },
       },
       {
         backgroundColor: `#E4FAFE`,
-        type: `Website`,
-        title: `<strong>Metavest</strong>`,
+        type: `Android App`,
+        title: `<strong>Tic Tac Toe</strong>`,
         subtitle:
-          "Worked on metavest.app website, created bunch of pages and components with the care of responsive design. Mainly used Reactjs and Nextjs along with CSS and HTML, used Strapi for CMS and localization.",
-        techs: "Reactjs Nextjs Strapi CSS HTML",
+          "Developed a Tic Tac Toe game through the use of android studio and kotlin. This was our finals for our mobile development subject, we decided to create a 2 player tic tac toe application. To showcase our learnings throughout the subject.",
+        techs: "Kotlin",
         links: {
-          github: "",
-          website: "https://metavest.app/",
+          github: "https://github.com/MykoMacawiwili/MOBDEVTFINALS",
+          website: "",
         },
       },
       {
         backgroundColor: `#CCFAED`,
-        type: `Mobile App`,
-        title: `<strong>DaiDay</strong>`,
+        type: `Web App`,
+        title: `<strong>Back up to the front</strong>`,
         subtitle:
-          "Created my first solo Mobile app and published it on Google Play Store, even though it is not perfect i am proud of my work and that i learned it all by myself during University. Mainly used Flutter and Dart programming language, Hive and SQFLite for database, BLoC for state management.",
-        techs: "Flutter SQL NoSQL BloC",
+          "Created my first web application through the use of C#. I learned and made it during our class of Enterprise Programming, with two of my other colleagues. An application of what we havelearned throughout the term.",
+        techs: "C#",
         links: {
-          github: "https://github.com/umutyesildal/daiday",
-          website:
-            "https://play.google.com/store/apps/details?id=com.greendal.daiday",
+          github: "https://github.com/MykoMacawiwili/ENTPROG-FINALS",
+          website: "",
         },
       },
       {
         backgroundColor: `#D5EAFF`,
-        type: `Mobile App`,
-        title: `<strong>Mercedes Assistify</strong>`,
+        type: `Web App`,
+        title: `<strong>Fast-Med</strong>`,
         subtitle:
-          "At the last year of my Bachelor, University arranged a joint lecture with Mercedes Turkey. I had the chance to meet with executives of Mercedes Turkey and find a solution to a problem Mercedes is having. Assistify is focused on solving Mercedes car users problems via Mobile App. Mainly used Flutter and Dart programming language, Hive and SQFLite for database, BLoC for state management.",
-        techs: "Flutter SQL NoSQL BloC",
+          "Created a web application through the use of java. Similar to my previous web application project, we made a web application with CRUD and login. By leveraging Java's robust frameworks, we were able to efficiently build a web application that meets the subject's requirements.",
+        techs: "Java",
         links: {
           github: "https://github.com/umutyesildal/mercedes-assistify",
           website: "",

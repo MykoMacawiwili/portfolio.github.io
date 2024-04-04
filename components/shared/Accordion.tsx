@@ -19,6 +19,12 @@ export default function SimpleAccordion() {
     questions: [
       {
         questionTitle:
+          "Gallium31 - Full Stack Developer Intern | January 2024-March 2024",
+        questionDescription:
+          "Utilized Figma, Node.js, and React to develop dynamic and interactive front-end interfaces. Leveraging Docker for containerization, ensuring scalability and efficiency. Additionally, I employed Material UI with Tailwind CSS to craft responsive and visually appealing designs. Gaining Experience in an office environment.",
+      },
+      {
+        questionTitle:
           "Google Developer Student Clubs Benilde - Operations Team Member | May 2023-August 2023",
         questionDescription:
           " Played a keyrole in coordinating and optimizing events and logistics for a vibrant community of technology enthusiasts at De La Salle-College of Saint Benilde.",
@@ -34,12 +40,6 @@ export default function SimpleAccordion() {
           "Justino Corporation - On-the-Job Trainee | January 2020-February 2020",
         questionDescription:
           "Contributed to company inventory andaccounting processes, gaining hands-on experience in managing and optimizing key business functions.",
-      },
-      {
-        questionTitle:
-          "Gallium31 - Full Stack Developer Intern | January 2024-March 2024",
-        questionDescription:
-          "Utilized Figma, Node.js, and React to develop dynamic and interactive front-end interfaces. Leveraging Docker for containerization, ensuring scalability and efficiency. Additionally, I employed Material UI with Tailwind CSS to craft responsive and visually appealing designs. Gaining Experience in an office environment.",
       },
     ],
   });
